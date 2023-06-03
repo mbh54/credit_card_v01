@@ -75,7 +75,7 @@ def credit_card_app():
     </p>
     
     <p style="font-family: sans-serif; color: black; font-size: 14px;">
-    Below are the cross-validation results for the model:
+    Below are the cross-validation results for the model with different C values:
     </p>
     '''
     st.markdown(explanation, unsafe_allow_html=True)
